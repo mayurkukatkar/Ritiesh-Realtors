@@ -117,7 +117,7 @@ export default function Amenities() {
   ];
 
   return (
-    <section id="amenities" className="py-24 bg-gradient-to-b from-forest to-deep-forest relative overflow-hidden">
+    <section id="amenities" className="py-12 md:py-24 bg-gradient-to-b from-forest to-deep-forest relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, rgba(212,175,55,0.3) 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
