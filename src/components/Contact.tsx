@@ -100,44 +100,44 @@ export default function Contact() {
             </h3>
             
             <div className="space-y-6">
-              <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all">
-                <div className="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center">
-                  <i className="fas fa-phone text-yellow-400 text-xl"></i>
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-yellow-500/10 rounded-xl flex items-center justify-center">
+                  <i className="fas fa-phone text-yellow-400 text-lg sm:text-xl"></i>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-400">Call Us Anytime</p>
-                  <p className="text-2xl font-bold">+91 94042 27998</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all">
-                <div className="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center">
-                  <i className="fab fa-whatsapp text-yellow-400 text-xl"></i>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-400">WhatsApp</p>
-                  <p className="text-xl font-bold">+91 94042 27998</p>
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-gray-400">Call Us Anytime</p>
+                  <p className="text-base sm:text-xl font-bold truncate">+91 94042 27998</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all">
-                <div className="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center">
-                  <i className="fas fa-envelope text-yellow-400 text-xl"></i>
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-yellow-500/10 rounded-xl flex items-center justify-center">
+                  <i className="fab fa-whatsapp text-yellow-400 text-lg sm:text-xl"></i>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-400">Email Us</p>
-                  <p className="text-xl font-bold">riteshrealtors@gmail.com</p>
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-gray-400">WhatsApp</p>
+                  <p className="text-base sm:text-xl font-bold truncate">+91 94042 27998</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all">
-                <div className="w-14 h-14 bg-yellow-500/10 rounded-xl flex items-center justify-center">
-                  <i className="fas fa-map-marker-alt text-yellow-400 text-xl"></i>
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-yellow-500/10 rounded-xl flex items-center justify-center">
+                  <i className="fas fa-envelope text-yellow-400 text-lg sm:text-xl"></i>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-400">Office Address</p>
-                  <p className="text-xl font-bold">Shop No 12, Vaastu Square Apartment</p>
-                  <p className="text-sm text-gray-500">Pipla Phata Bus Stop, Hudkedhwar Road, Nagpur</p>
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-gray-400">Email Us</p>
+                  <p className="text-base sm:text-xl font-bold truncate">riteshrealtors@gmail.com</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all overflow-hidden">
+                <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-yellow-500/10 rounded-xl flex items-center justify-center">
+                  <i className="fas fa-map-marker-alt text-yellow-400 text-lg sm:text-xl"></i>
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs sm:text-sm text-gray-400">Office Address</p>
+                  <p className="text-sm sm:text-xl font-bold break-words">Shop No 12, Vaastu Square Apartment</p>
+                  <p className="text-xs sm:text-sm text-gray-500">Pipla Phata Bus Stop, Hudkeshwar Road, Nagpur</p>
                 </div>
               </div>
             </div>
