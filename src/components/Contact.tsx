@@ -91,10 +91,10 @@ export default function Contact() {
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">Contact Ritiesh Realtors today for exclusive site visits and premium pricing</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           {/* Contact Info */}
-          <div className="glass-card p-8 rounded-3xl reveal">
-            <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
+          <div className="glass-card p-6 md:p-8 rounded-3xl reveal">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6 flex items-center gap-3">
               <i className="fas fa-headset text-yellow-400"></i>
               Contact Information
             </h3>
@@ -165,8 +165,8 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="glass-card p-8 rounded-3xl reveal">
-            <h3 className="text-2xl font-bold mb-6">Schedule Site Visit</h3>
+          <div className="glass-card p-6 md:p-8 rounded-3xl reveal">
+            <h3 className="text-xl sm:text-2xl font-bold mb-6">Schedule Site Visit</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               {/* Honeypot for spam protection */}
               <input type="text" id="honeypot" name="honeypot" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
@@ -190,6 +190,7 @@ export default function Contact() {
                 <option value="nimba" className="bg-forest">Vijayalakshmi Nagari - Nimba</option>
                 <option value="temasna" className="bg-forest">Sai Samruddhi - Temasna</option>
                 <option value="pandharkawada" className="bg-forest">Pandharkawada</option>
+                <option value="wadad" className="bg-forest">Green City-1 - Wadad</option>
               </select>
               
               <select id="interest" name="interest" value={formData.interest} onChange={handleChange} 
