@@ -17,7 +17,7 @@ import FloatingCTA from '@/components/FloatingCTA';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-deep-forest text-white selection:bg-yellow-500/30 selection:text-yellow-400 font-sans">
+    <main className="min-h-screen w-full overflow-x-hidden bg-deep-forest text-white selection:bg-yellow-500/30 selection:text-yellow-400 font-sans">
       <ScrollReveal />
       <Navbar />
       <Hero />

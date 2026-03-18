@@ -30,6 +30,9 @@ export default function Locations() {
       ],
       tags: ["NA Sanctioned", "Ready Possession", "12m & 9m Roads"],
       gallery: [
+        { src: "/vijayalakshmi-area-statement.jpeg", label: "Area Statement" },
+        { src: "/vijayalakshmi-layout-plan.jpeg", label: "Layout Plan" },
+        { src: "/vijayalakshmi-brochure.jpeg", label: "Brochure" },
         { src: "https://i.ibb.co/Rp7BzC56/6.jpg", label: "Site Overview" },
         { src: "https://i.ibb.co/fVrTNFBf/Whats-App-Image-2026-03-07-at-11-20-02-AM.jpg", label: "Site Board" },
         { src: "https://i.ibb.co/8LVK8FVK/2.jpg", label: "Road Development" },
@@ -71,10 +74,30 @@ export default function Locations() {
       ],
       tags: ["NA Sanctioned", "Ready Possession", "NMRDA Approved"],
       gallery: [
+        { src: "/pandharkawada-layout-plan.jpeg", label: "Ambika Layout Plan" },
         { src: "https://i.ibb.co/jk0dmx39/1.jpg", label: "Site Overview" },
         { src: "https://i.ibb.co/9mj4z47t/2.jpg", label: "Road Development" },
         { src: "https://i.ibb.co/Z6QB3XKM/3.jpg", label: "Plot Layout" }
       ]
+    },
+    {
+      id: "wadad",
+      title: "Green City-1, Wadad",
+      address: "Mouza-Wadadh, Kh. No. 106 (Part-C), P.H. No. 12, Tah-Umred, Dist. Nagpur",
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14906.502804561081!2d79.324269!3d20.927282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c5c2fc93fc2b%3A0x6b4afcbbd79fd7!2sWadad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710771804153!5m2!1sen!2sin",
+      distances: [
+        { icon: "fa-graduation-cap", label: "Govindrao Wanjari College", distance: "5km" },
+        { icon: "fa-map-marker-alt", label: "Besa Chowk", distance: "10km" },
+        { icon: "fa-hospital", label: "PHC Hospital", distance: "3km" },
+        { icon: "fa-futbol", label: "Jamtha Stadium", distance: "7km" }
+      ],
+      tags: ["N.A.T.P Sanctioned", "36 Months Easy EMI", "Lucky Draw Scheme"],
+      gallery: [
+        { src: "/wadad-brochure.jpeg", label: "Green City-1 Brochure" },
+        { src: "/wadad-layout-plan.jpeg", label: "Layout Plan" },
+        { src: "/wadad-location-map.jpeg", label: "Location Map" }
+      ],
+      reverseMap: true
     }
   ];
 

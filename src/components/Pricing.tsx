@@ -74,27 +74,27 @@ export default function Pricing() {
         </div>
 
         {/* 3 Column Pricing Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto w-full">
           {projects.map((project) => (
             <div 
               key={project.id} 
-              className={`property-card p-8 rounded-3xl relative reveal ${project.popular ? 'overflow-hidden transform lg:scale-105 lg:-translate-y-4 border-2 border-yellow-500' : ''}`}
+              className={`property-card p-6 md:p-8 rounded-3xl relative reveal flex flex-col h-full ${project.popular ? 'overflow-hidden transform lg:scale-105 lg:-translate-y-4 border-2 border-yellow-500' : ''}`}
             >
               {project.popular && <div className="popular-badge">POPULAR</div>}
               
-              <div className="flex justify-between items-start mb-6">
+              <div className="flex flex-col sm:flex-row justify-between items-start gap-3 sm:gap-4 mb-6">
                 <div>
-                  <h3 className="text-2xl font-serif font-bold mb-1">{project.title}</h3>
-                  <p className="text-gray-400">{project.location}</p>
+                  <h3 className="text-xl sm:text-2xl font-serif font-bold mb-1">{project.title}</h3>
+                  <p className="text-sm sm:text-base text-gray-400">{project.location}</p>
                 </div>
-                <span className={`px-4 py-1 bg-${project.badgeColor}-500/10 border border-${project.badgeColor}-500/30 text-${project.badgeColor}-400 rounded-full text-sm font-semibold whitespace-nowrap`}>
+                <span className={`px-3 py-1 lg:px-4 bg-${project.badgeColor}-500/10 border border-${project.badgeColor}-500/30 text-${project.badgeColor}-400 rounded-full text-xs sm:text-sm font-semibold whitespace-nowrap self-start`}>
                   {project.badge}
                 </span>
               </div>
               
               <div className="mb-6">
-                <span className="text-3xl md:text-5xl font-bold gold-gradient-text">{project.price}</span>
-                <span className="text-gray-400">/sq.ft</span>
+                <span className="text-3xl md:text-4xl lg:text-5xl font-bold gold-gradient-text">{project.price}</span>
+                <span className="text-gray-400 text-sm sm:text-base">/sq.ft</span>
               </div>
               
               <ul className="space-y-3 mb-8 text-sm">

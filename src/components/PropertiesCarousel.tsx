@@ -27,6 +27,14 @@ const properties = [
     image: "https://i.ibb.co/jk0dmx39/1.jpg",
     price: "₹1,600",
     highlights: ["NMRDA Approved", "Ready Possession", "Corner Plots Available", "36 Months EMI (0%)"]
+  },
+  {
+    id: 4,
+    title: "Green City-1",
+    location: "Wadad Location",
+    image: "/wadad-brochure.jpeg",
+    price: "On Request",
+    highlights: ["N.A.T.P Sanctioned", "36 Months Easy EMI", "Lucky Draw Scheme", "Free Site Visit"]
   }
 ];
 
