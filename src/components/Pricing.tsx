@@ -106,7 +106,12 @@ export default function Pricing() {
               </ul>
               
               <button 
-                onClick={() => alert('Gallery feature will be integrated soon!')} 
+                onClick={() => {
+                  const element = document.getElementById(`location-${project.galleryFolder}`);
+                  if (element) {
+                    element.scrollIntoView({behavior: 'smooth'});
+                  }
+                }} 
                 className="w-full mb-3 py-3 rounded-xl border border-yellow-500/30 text-yellow-400 hover:bg-yellow-500/10 transition-all font-semibold flex items-center justify-center gap-2"
               >
                 <i className="fas fa-images"></i>View Gallery

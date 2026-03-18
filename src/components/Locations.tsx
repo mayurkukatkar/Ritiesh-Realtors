@@ -105,7 +105,7 @@ export default function Locations() {
     <section className="py-24 bg-deep-forest">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {locations.map((loc) => (
-          <div key={loc.id} className="mb-20 reveal">
+          <div key={loc.id} id={`location-${loc.id}`} className="mb-20 reveal scroll-mt-24">
             <div className="flex items-center gap-4 mb-8">
               <div className="h-px flex-1 bg-yellow-500/20"></div>
               <h3 className="text-3xl font-serif font-bold text-center">
