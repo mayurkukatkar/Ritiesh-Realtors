@@ -13,15 +13,40 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ritieshrealtors.in'),
   title: "Ritiesh Realtors | Premium Plots at Nagpur",
   description: "Premium NA sanctioned residential plots at Nimba, Temasna, and Pandharkawada, Nagpur. Clear titles, 0% EMI options, and immediate possession by Ritiesh Realtors.",
-  keywords: "Ritiesh Realtors, NA plots Nagpur, residential plots, Nimba, Temasna, Pandharkawada, real estate, EMI plots",
+  keywords: "Ritiesh Realtors, NA plots Nagpur, residential plots, Nimba, Temasna, Pandharkawada, real estate, EMI plots, property in Nagpur, buy land Nagpur",
   authors: [{ name: "Ritiesh Realtors" }],
+  creator: "Ritiesh Realtors",
+  publisher: "Ritiesh Realtors",
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Ritiesh Realtors | Premium Plots in Nagpur",
     description: "Premium NA sanctioned plots with 0% EMI options. 3 prime locations in Nagpur.",
+    url: 'https://ritieshrealtors.in',
+    siteName: 'Ritiesh Realtors',
     type: "website",
-  }
+    locale: 'en_IN',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Ritiesh Realtors | Premium Plots in Nagpur",
+    description: "Premium NA sanctioned plots with 0% EMI options in Nagpur.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
